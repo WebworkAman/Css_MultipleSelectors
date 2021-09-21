@@ -14,6 +14,12 @@ nav ul{
 }
 nav li{
     display: inline-block;
+    margin-right: 10px;
+    margin-top: 5px;
+
+}
+nav li:hover a{
+    color: burlywood;
 
 }
 nav li a{
@@ -23,7 +29,8 @@ nav li a{
 
 .top-main{
 
-    background-image: url(../img/main_bg.png);
+    /* background-image: url(../img/main_bg.png); */
+    background-image: url(https://img.onl/5D3cU8);
     background-size: cover;
     color: white;
     height: 50vh;
@@ -65,7 +72,7 @@ nav li a{
 
 .top-bottom{
     width: 100%;
-    border: 1px solid saddlebrown;
+    border: 1px solid gray;
 
 }
 .top-bottom .bottom-content{
@@ -96,7 +103,8 @@ nav li a{
 }
 .top-bottom li a{
     display: block;
-    background-image: url(../img/social_media_icons_big.png);
+    /* background-image: url(../img/social_media_icons_big.png); */
+    background-image: url(https://img.onl/DlzuwY);
     width: 50px;
     height: 50px;
     margin:0px 10px;
@@ -156,15 +164,16 @@ nav li a{
 /* main start */
 main{
     background-color: #f5f5f5;
+    overflow: hidden;
 }
 .main-content{
     display: grid;
     grid-auto-flow: column;
-    /* grid-template-columns: 200px; */
-
+    grid-template-columns: 200px;
+    /* justify-content: space-evenly; */
     width: 60%;
     height: 70vh;
-    margin: 0 auto;
+    margin: 100px auto 0;
     padding: 50px 0;
 }
 .main-content ul{
@@ -185,6 +194,7 @@ main{
 .main-content ul li a{
     text-decoration: none;
     color:white;
+    
 }
 
 .main-content .content-text{
@@ -203,11 +213,14 @@ main{
 }
 
 .main-content .content-text a{
+    display: block;
     text-decoration: none;
     background-color: cadetblue;
     color: white;
-    width: 30vw;
+    width: 5vw;
     padding: 10px;
+    margin-top: 50px;
+    text-align: center;
 }
 .main-content .content-text a:hover{
     
@@ -311,7 +324,9 @@ main{
 }
 
 .white-font{
-    background-image: url('../img/down_bg.png');
+    /* background-image: url('../img/down_bg.png'); */
+    background-image: url('https://img.onl/iE8l6t');
+
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -326,12 +341,16 @@ main{
     display: block;
     text-decoration: none;
     margin: 30px auto;
-    padding: 5px;
+    padding: 10px;
     color: white;
     border: 1px solid white;
 
-    width: 8vw;
+    width: 5vw;
     text-align: center;
+}
+.DownloadBtn:hover{
+    background-color: burlywood;
+    border: 0;
 }
 
 /* ------------footer -----------*/
@@ -350,7 +369,8 @@ footer ul li{
 }
 footer ul li a{
     display: block;
-    background-image: url('../img/social_media_icons_small.png');
+    /* background-image: url('../img/social_media_icons_small.png'); */
+    background-image: url('https://img.onl/n0VXdR');
     width: 25px;
     height: 25px;
     margin:0px 10px;
